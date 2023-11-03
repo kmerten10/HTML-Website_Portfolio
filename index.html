@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Kelsey Merten's Portfolio</title>
+    <title>Folio - K.M.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--swap out favicon-->
     <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
@@ -21,51 +21,73 @@
 </head>
 
 <body>
-    <header class="page-header">
-        <a href="index.html">
-            <img class="icon" src="img/icon.png" href="index.html" alt="icon">
+
+    <span>
+        <a class="resume" href="kmresume.pdf" download="Kelsey.Merten.Resume">
+            <img class="icon" src="img/icon.png" href="kmresume.pdf" alt="icon">
+            <span href="kmresume.pdf" download="Kelsey.Merten.Resume" class="resume">Resume</span>
         </a>
-        <nav class="page-header__item">
-            <ul class="navigation-list" role="menubar">
-                <li role="presentation">
-                    <a href="work.html" role="menuitem">Work</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.kelsey.html" role="menuitem">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="contact.kelsey.html" role="menuitem">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="columns">
-            <div class="row.img">
-                <div class="column img">
-                    <a href="kmresume.pdf" title="Click to Download Resume" download="Kelsey.Merten.Resume">
-                        <video autoplay src="./img/mymovie.mp4" alt="Photo of Kelsey"></video>
-                    </a>
-                </div>
-            </div>
+    </span>
+    <nav class="page-header__item">
+        <ul class="navigation-list" role="menubar">
+            <li role="presentation">
+                <a href="work.html" role="menuitem">Work</a>
+            </li>
+            <li role="presentation">
+                <a href="about.kelsey.html" role="menuitem">About</a>
+            </li>
+            <li role="presentation">
+                <a href="contact.kelsey.html" role="menuitem">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
 
-            <div class="row.info">
-                <div class="column info">
-                    <h1 class="name">Kelsey Joan <br> Merten
-                        <div class="box"></div>
-                    </h1>
-                    <p>web developer | project manager | digital creator</p>
+    <div>
+        <video muted autoplay src="./img/myMovie.mp4" alt="Photo of Kelsey"></video>
+        <h1 class="name">KELSEY MERTEN
+        </h1>
+        <p>web developer | digital creator & marketer | projet manager </p>
 
-                    <span class="button2">
-                        <button onclick="window.location.href='work.html'">Explore Work</button>
-                    </span>
-                </div>
-            </div>
+        <span class="button2">
+            <button onclick="window.location.href='work.html'">Explore Work</button>
+        </span>
+    </div>
 
-        </section>
-    </main>
+
+    <div class="videocontainer">
+        <div class="flowers">
+            <video muted autoplay loop src="./img/flowers.mp4" alt="Photo of Kelsey"></video>
+        </div>
+
+        <div class="webheader">Web Development <br>
+
+            <div class="webheader small"> A compelling website is your digital storefront. <br>Your business deserves a
+                stunning
+                display.</div>
+        </div>
+
+        <div class="webdev">
+            <p class="webdevitem">Responsive Design: <br> Customer acquisition depends on accessibility and
+                usability, even on a mobile
+                device. </p>
+            <p class="webdevitem">Custom Design: <br> Solutions crafted for you and your unique online presence.
+            </p>
+            <p class="webdevitem">SEO Optimization: <br> Visibility, accessibility and outranking your competitors
+                are key. </p>
+            <p class="webdevitem">User-Centric Approach: <br> Designed to keep your users engaged. </p>
+        </div>
+    </div>
+
+
+    <div class="flowers">
+        <video muted autoplay loop src="./img/flowers.mp4" alt="Photo of Kelsey"></video>
+    </div>
+
+
+
+
+
     <div class="footer">
         <footer>
             <h5>find me on</h5>
@@ -132,6 +154,8 @@
 </div>
     
     <script src="js/tota11y.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>

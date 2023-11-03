@@ -334,6 +334,11 @@ div.grid_container {
   align-items: center;
 }
 
+a.link {
+  display: flex;
+  color: white;
+}
+
 /* Contact Page Columns */
 .column1 {
   width: 50%;

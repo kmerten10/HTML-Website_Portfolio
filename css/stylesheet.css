@@ -34,7 +34,14 @@ a {
 
 .navigation-list a:hover {
   cursor: crosshair;
-  color: #f9bf73;
+  color: #b2135b;
+}
+
+.contact-container {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  align-self: center;
 }
 
 body {
